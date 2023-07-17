@@ -1,8 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 :root {
   --main-text-color: #434455;
@@ -18,12 +18,15 @@ body {
 }
 a {
   text-decoration: none;
-  font-style: normal;
   color: var(--link-text-color);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.link {
+  text-decoration: none;
+}
+.list {list-style: none;}
 .address-item {
   color: var(--main-text-color);
   font-size: 16px;
@@ -54,31 +57,36 @@ button {
   cursor: pointer;
 }
 .first-title {background-color: #2e2f42;}
-.title-h1 {
+.title-first {
 color: #fff;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
 }
-h2 {
+.title-second {text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--main-titles-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+}
+
+.our-team {background-color: #f4f4fd; text-align: center}
+
+  .team-people {
+  background-color:#FFFFFF
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--main-titles-color);
-}
-.title-h2 {text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 0.02em;
-    color: var(--main-titles-color);
-}
-.team-list {background-color: #F4F4FD;
-     text-align: center;  
-}
+  color: (var --main-titles-color)}
+
 .occupation-team-list {
   font-size: 16px;
   line-height: 1.5 
-  color: var(--main-text-color);
+  color: var(--main-text-color)
+  background-color:#FFFFFF;
 }
 h3 {
   font-weight: 500;
@@ -87,7 +95,6 @@ h3 {
   letter-spacing: 0.02em;
   color: (var --main-titles-color);
 }
-.team-list-title {background-color: #FFFFFF}
 .philosophy-list {
     color: var(--main-titles-color);
     letter-spacing: 0.02em;
@@ -112,6 +119,9 @@ h3 {
   cursor: pointer;
   text-align: center;
 }
+.order-service:hover,.order-service:focus {
+  background-color:  #404BBF;}
+
 .filters-button {
   color: var(--logo-color);
   font-family: "Roboto", sans-serif
