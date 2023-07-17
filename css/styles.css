@@ -3,12 +3,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 :root {
   --main-text-color: #434455;
   --main-titles-color: #2e2f42;
   --main-text-font: "Roboto", sans-serif;
-  --main-background-color: #f4f4fd;
+  --main-background-color: #ffffff;
   --header-footer-background-color: #2e2f42;
   --logo-font: "Raleway", sans-serif;
   --logo-color: #2e2f42;
@@ -48,6 +49,9 @@ button:focus {
 button:active {
   color: crimson;
 }
+button {
+  cursor: pointer;
+}
 h1 {
   color: #fff;
 }
@@ -70,9 +74,6 @@ h3 {
 }
 .main-title {
   background-color: var(--header-footer-background-color);
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
   text-align: center;
 }
 .header-menu-link {
@@ -100,24 +101,22 @@ h3 {
 #filter-button-all:active {
   color: crimson;
 }
-.header-logo {
+.logo {
   font-family: "Raleway", sans-serif;
-  color: #2e2f42;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-span {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
+}
+span {
+  color: #2e2f42;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 ul,
 ol {
@@ -127,14 +126,13 @@ ol {
   background-color: var(--navyblue, #2e2f42);
 }
 .footer-logo {
-  color: #f4f4fd;
   font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 #footer-text {
   color: var(--cloud, #f4f4fd);
