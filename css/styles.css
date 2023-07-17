@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
+  background-color: #ffffff;
 }
 :root {
   --main-text-color: #434455;
@@ -12,13 +13,18 @@ body {
   --main-background-color: #ffffff;
   --header-footer-background-color: #2e2f42;
   --logo-font: "Raleway", sans-serif;
-  --logo-color: #2e2f42;
-  --main-color-hover: #4d5ae5;
+  --logo-color: #4d5ae5;
   --hover-background-color: #87cefa;
+  --link-text-color: #2e2f42;
+  --button-back-color:#F4F4FD;
 }
 a {
   text-decoration: none;
   font-style: normal;
+  color: var(--link-text-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .address-item {
   color: var(--main-text-color);
@@ -26,21 +32,18 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.link {
-  color: var(--main-titles-color);
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  list-style: none;
+  font-style: normal;
 }
 a:hover,
 a:focus {
-  color: var(--main-color-hover);
+  color:  #404bbf;
   background-color: var(--hover-background-color);
 }
 a:active {
   color: crimson;
 }
+address {font-style: normal;}
 button:hover,
 button:focus {
   background-color: rgb(187, 182, 182);
@@ -52,8 +55,12 @@ button:active {
 button {
   cursor: pointer;
 }
-h1 {
-  color: #fff;
+.first-title {background-color: #2e2f42;}
+.title-h1 {
+color: #fff;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
 }
 h2 {
   font-size: 36px;
@@ -62,11 +69,30 @@ h2 {
   letter-spacing: 0.02em;
   color: var(--main-titles-color);
 }
+.title-h2 {text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: var(--main-titles-color);
+}
+.team-list {background-color: #F4F4FD;
+     text-align: center;  
+}
+.occupation-team-list {
+  font-size: 16px;
+  line-height: 1.5 
+  color: var(--main-text-color);
+}
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: (var --main-titles-color);
+}
+.team-list-title {background-color: #FFFFFF}
+.philosophy-list {
+    color: var(--main-titles-color);
+    letter-spacing: 0.02em;
 }
 .simple-text {
   color: var(--main-text-color);
@@ -76,22 +102,34 @@ h3 {
   background-color: var(--header-footer-background-color);
   text-align: center;
 }
-.header-menu-link {
-  font-weight: 500;
-  line-height: 1.5;
-  color: var(--main-text-color);
-}
+
 .order-service {
   background-color: #4d5ae5;
   color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  text-align: center;
 }
 .filters-button {
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--logo-color);
+  font-family: "Roboto", sans-serif
+  font-weight: 500
+  font-size: 16px
+  line-height: 1.5 
+  letter-spacing: 0.04em
+  background-color: var(--button-back-color);
+  cursor: pointer;
 }
-#filter-button-all {
+.filters-button:hover,.filters-button:focus {  
+  color: #ffffff; background-color: #404BBF;
+}
+
+#filter-button-all {color: #FFFFFF
   background-color: #404bbf;
-  color: #ffffff;
 }
 #filter-button-all:hover,
 #filter-button-all:focus {
@@ -101,39 +139,29 @@ h3 {
 #filter-button-all:active {
   color: crimson;
 }
+.projects-items-description {
+  list-style: none;
+  text-decoration: none;
+}
 .logo {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
+  color: var(--logo-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-span {
-  color: #2e2f42;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.header-logo-studio { color: #2e2f42;
 }
-ul,
-ol {
+.header-menu-list:hover,.header-menu-list:focus {color: #404bbf; }
+ul {
   list-style-type: none;
 }
 .footer {
   background-color: var(--navyblue, #2e2f42);
 }
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+.logo-footer-studio {color: #f4f4fd;}
 #footer-text {
   color: var(--cloud, #f4f4fd);
   /* Body */
