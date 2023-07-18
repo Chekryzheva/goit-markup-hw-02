@@ -171,15 +171,15 @@ button {
 
 .team-people {
   background-color: var(--background-color-main);
+}
+
+.team-people-name {
+  color: var(--main-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: (var --main-titles-color);
-}
-
-.team-people-name {
-  color: var(--main-text-color);
 }
 
 .occupation-team-list {
