@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--background-color-main);
 }
 :root {
   --main-text-color: #434455;
@@ -149,6 +149,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--main-titles-color);
+  text-transform: capitalize;
 }
 .title-second {
   text-align: center;
@@ -175,12 +176,12 @@ button {
 }
 
 .team-people-name {
-  color: var(--main-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: (var --main-titles-color);
+  background-color: var(--background-color-main);
 }
 
 .occupation-team-list {
