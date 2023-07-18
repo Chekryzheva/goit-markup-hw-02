@@ -168,7 +168,6 @@ button {
 }
 .our-team {
   background-color: #f4f4fd;
-  text-align: center;
 }
 
 .team-people {
@@ -181,7 +180,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: (var --main-titles-color);
-  background-color: var(--background-color-main);
 }
 
 .occupation-team-list {
