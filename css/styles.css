@@ -169,13 +169,16 @@ button {
 .our-team {
   background-color: #f4f4fd;
 }
-
+.team-people-infa {
+  background-color: #ffffff;
+}
 .team-people-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-titles-color);
+  background-color: var(--background-color-main);
 }
 .team-people-pict {
   background-color: #ffffff;
