@@ -139,12 +139,15 @@ button {
 .projects-items-description link {
   list-style: none;
   text-decoration: none;
+  background-color: #ffffff;
 }
 .title-second-first-section {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--main-titles-color);
 }
 .title-second {
   text-align: center;
