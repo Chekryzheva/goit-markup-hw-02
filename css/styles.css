@@ -177,7 +177,9 @@ button {
   letter-spacing: 0.02em;
   color: (var --main-titles-color);
 }
-
+.team-people-images {
+  background-color: #ffffff;
+}
 .occupation-team-list {
   font-size: 16px;
   line-height: 1.5;
