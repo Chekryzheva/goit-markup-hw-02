@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
-  background-color: #ffffff;
 }
 :root {
   --main-text-color: #434455;
@@ -15,10 +14,17 @@ body {
   --hover-background-color: #87cefa;
   --link-text-color: #2e2f42;
   --button-back-color: #f4f4fd;
+  --background-color-main: #ffffff;
 }
 
 .link {
   text-decoration: none;
+}
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
 }
 .list {
   list-style: none;
@@ -135,7 +141,7 @@ button {
   text-decoration: none;
 }
 .title-second-first-section {
-  ont-weight: 500;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -149,14 +155,19 @@ button {
   font-weight: 700;
   line-height: 1.11;
 }
-
+.hidden-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 .our-team {
   background-color: #f4f4fd;
   text-align: center;
 }
 
 .team-people {
-  background-color: #ffffff;
+  background-color: var(--background-color-main);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -172,12 +183,19 @@ button {
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
-  background-color: #ffffff;
+  background-color: var(--background-color-main);
+  letter-spacing: 0.02em;
 }
 
 .philosophy-list {
   color: var(--main-titles-color);
   letter-spacing: 0.02em;
+  line-height: 1.2;
+  font-size: 20px;
+  font-weight: 500;
+}
+.simple-text-philosophy {
+  line-height: 1.5;
 }
 
 .title-item-description {
