@@ -170,10 +170,6 @@ button {
   background-color: #f4f4fd;
 }
 
-.team-people {
-  background-color: var(--background-color-main);
-}
-
 .team-people-name {
   font-weight: 500;
   font-size: 20px;
